@@ -3,6 +3,7 @@
 .wrap{
     width: 1200px;
     margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* ヘッダー 全体と２要素*/
 .header{
