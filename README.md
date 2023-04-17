@@ -28,7 +28,7 @@
 - 簡単な英語の綴りがわからないし、間違う！w → 使わないと忘れるのね…
   
 - [tips]
-- サイト制作はワイヤーフレームが命な気がする！special thanks!
+- サイト制作はワイヤーフレームが命な気がする！special thanks！つばさちゃん
   
 - [参考記事]
 - カードデザイン　https://eclair.blog/examples-of-card/
