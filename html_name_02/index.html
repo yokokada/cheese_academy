@@ -9,9 +9,9 @@
    <link rel="stylesheet" href="./css/bulma.min.css">
    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-   <!-- プラグインを追加したい場合はこのしたに追加 -->
-   <script src="./js/jquery-3.6.0.min.js"></script>
-   <script type="text/javascript" src="slick/slick.min.js"></script>
+   <!-- slick以外にプラグインを追加したい場合はこのしたに追加 -->
+   <script src="./js/jquery-3.6.4.min.js"></script>
+   <script type="text/javascript" src="./slick/slick.min.js"></script>
   <title>チーズアカデミー</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
@@ -83,29 +83,15 @@
           </div>
         </div>
         <!-- image部分は４つの写真を並べてセンター合わせ -->
-        <div class="about__image">
-          <div class="about__image1">
-            <img src="./img/about_04.jpg" alt="">
-          </div>
-          <div class="about__image2">
-            <img src="./img/about_03.jpg" alt="">
-          </div>
-          <div class="about__image3">
-            <img src="./img/about_02.jpg" alt="">
-          </div>
-          <div class="about__image4">
-            <img src="./img/about_01.jpg" alt="">
-          </div>
-          <div class="about__image5">
-            <img src="./img/チーズお菓子.jpeg" alt="">
-          </div>
-          <div class="about__image6">
-            <img src="./img/チーズフォンデュ.jpeg" alt="">
-          </div>
-          <div class="about__image7">
-            <img src="./img/チーズ色々.jpeg" alt="">
-          </div>
-        </div>
+        <ul class="about__image">
+          <li><img src="./img/about_04.jpg" alt=""></li>
+          <li><img src="./img/about_03.jpg" alt=""></li>
+          <li><img src="./img/about_02.jpg" alt=""></li>
+          <li><img src="./img/about_01.jpg" alt=""></li>
+          <li><img src="./img/チーズお菓子.jpeg" alt=""></li>
+          <li><img src="./img/チーズフォンデュ.jpeg" alt=""></li>
+          <li><img src="./img/チーズ色々.jpeg" alt=""></li>
+        </ul>
       </div>
       <!-- courseの構成要素は①文章②写真と文章のbox×２を３段 -->
       <div class="course" id="course">
@@ -380,21 +366,14 @@
   <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="js/main.js"> -->
     <script>
-      $(".about__image").slick({
-    infinite: true,
-    slidesToShow: 2,
-    slidesToScroll: 2,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    });
-    </script>
     $(".about__image").slick({
     infinite: true,
-    slidesToShow: 2,
-    slidesToScroll: 2,
+    slidesToShow: 4,
+    slidesToScroll: 4,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2000,
     });
+    </script>
   <!-- </script> -->
 </body>
 
