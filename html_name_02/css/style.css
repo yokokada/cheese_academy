@@ -56,11 +56,25 @@
     margin: 0 auto;
 }
 .hero__catchphraze{
-    /* margin-top: 150px; */
     font-size: 40px;
     color: white;
     font-weight: bold;
+    border-color: black; */
 }
+/* .eachTextAnime p{
+  text-align: center;
+  margin: 20px 0;
+  font-size:1.5rem;
+}
+
+.eachTextAnime span{opacity: 0;}
+.eachTextAnime.appeartext span{ animation:text_anime_on 1s ease-out forwards; }
+@keyframes text_anime_on {
+  0% {opacity:0;}
+  100% {opacity:1;}
+} */
+
+
 .hero__title{
     font-size: 30px;
     color: white;

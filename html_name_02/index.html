@@ -44,7 +44,7 @@
       <div class="hero">
         <div class="hero__text">
           <div class="hero__catchphraze">
-            <p>セカイを変えるチーズを作ろう</p>
+            <div class="eachTextAnime">セカイを変えるチーズを作ろう</div>
           </div>
           <div class="hero__title">
             <p>チーズ職人養成学校「チーズアカデミーTOKYO」</p>
@@ -405,7 +405,7 @@
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 3000,
     });
     
 
@@ -416,6 +416,25 @@
     autoplay: true,
     autoplaySpeed: 3000,
     })
+  </script>
+
+  <!-- <script>
+    function EachTextAnimeControl() {
+    $('.eachTextAnime').each(function () {
+    var elemPos = $(this).offset().top - 50;
+    var scroll = $(window).scrollTop();
+    var windowHeight = $(window).height();
+    if (scroll >= elemPos - windowHeight) {
+      $(this).addClass("appeartext");
+
+    } else {
+      $(this).removeClass("appeartext");
+    }
+    });
+    }
+  </script>
+     -->
+
     
 
     // $("news__card").slick({
@@ -452,7 +471,7 @@
 //     }
 //   ]
 // });
-    </script>
+   
   <!-- </script> -->
 </body>
 
