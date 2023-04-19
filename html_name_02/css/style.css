@@ -61,6 +61,10 @@
     font-weight: bold;
     border-color: black; */
 }
+.hero__catchphraze.change-color {
+    color: red;
+  }
+
 /* .eachTextAnime p{
   text-align: center;
   margin: 20px 0;

@@ -44,7 +44,9 @@
       <div class="hero">
         <div class="hero__text">
           <div class="hero__catchphraze">
-            <div class="eachTextAnime">セカイを変えるチーズを作ろう</div>
+            <div class="title1">
+              <h1>セカイを変えるチーズを作ろう</h1>
+            </div>
           </div>
           <div class="hero__title">
             <p>チーズ職人養成学校「チーズアカデミーTOKYO」</p>
@@ -417,23 +419,45 @@
     autoplaySpeed: 3000,
     })
   </script>
-
+  <!-- スクロールしたら色が変わるようにしたかったけどダメだった -->
   <!-- <script>
-    function EachTextAnimeControl() {
-    $('.eachTextAnime').each(function () {
-    var elemPos = $(this).offset().top - 50;
-    var scroll = $(window).scrollTop();
-    var windowHeight = $(window).height();
-    if (scroll >= elemPos - windowHeight) {
-      $(this).addClass("appeartext");
+    $(".course__box_row1").on("scroll",function(){
+     $(".course__box2") .css(color,"orange")
+    })
+    $(".course__box_row2").on("scroll",function(){
+     $(".course__box3") .css(color,"orange")
+    })
+    $(".course__box_row3").on("scroll",function(){
+     $(".course__box6") .css(color,"orange")
+    })
+  </script> -->
 
-    } else {
-      $(this).removeClass("appeartext");
-    }
-    });
-    }
-  </script>
-     -->
+//   <!-- <script>
+//     jQuery(window).on('scroll', function () {
+//     if (400 < jQuery(this).scrollTop()) {
+//         jQuery('hero').addClass('change-color');
+//     } else {
+//         jQuery('.hero').removeClass('change-color');
+//     }
+// });
+//   </script> -->
+
+//   <!-- <script>
+//     function EachTextAnimeControl() {
+//     $('.eachTextAnime').each(function () {
+//     var elemPos = $(this).offset().top - 50;
+//     var scroll = $(window).scrollTop();
+//     var windowHeight = $(window).height();
+//     if (scroll >= elemPos - windowHeight) {
+//       $(this).addClass("appeartext");
+
+//     } else {
+//       $(this).removeClass("appeartext");
+//     }
+//     });
+//     }
+//   </script>
+//      -->
 
     
 
