@@ -270,26 +270,28 @@
     margin-top: 30px;
     margin-bottom: 60px;
 }
-/* 幅300×700のカード３枚 */
+/* 幅300×700のカード5枚 */
 .news__card{
     display: flex;
     justify-content: center;
     gap: 30px;
 }
+.hoge{
+    display: flex;
+    gap: 30px;
+    width: 1200px;
+    margin-bottom: 60px;
+}
+
 .news__card1{
     background-color: rgb(251, 251, 247);
-    width: 300px;
-    height: 400px;
+    /* width: 00px;
+    height: auto; */
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0,0,.2);
-}
-/* 拡大のホバー */
-.news__card1:hover{transform: scale(1.2);
-}
-.news__card2:hover{transform: scale(1.2);
-}
-.news__card3:hover{transform: scale(1.2);
+    margin: 30px;
+    padding: 20px;
 }
 /* カードの要素は写真と文章 */
 .news__card1_sentense{
@@ -306,6 +308,20 @@
     font-size: 16px;
     line-height: 25px; 
 }
+
+/* 拡大のホバー */
+/* .news__card1:hover{transform: scale(1.2);
+}
+.news__card2:hover{transform: scale(1.2);
+}
+.news__card3:hover{transform: scale(1.2);
+}
+.news__card4:hover{transform: scale(1.2);
+}
+.news__card5:hover{transform: scale(1.2);
+} */
+
+
 .news__card2{
     background-color: rgb(251, 251, 247);
     width: 300px;
@@ -313,6 +329,8 @@
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0,0,.2);
+    margin: 30px;
+    padding: 20px;
     
 }
 .news__card2_sentense{
@@ -337,6 +355,8 @@
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0,0,.2);
     margin-bottom: 60px;
+    margin: 30px;
+    padding: 20px;
 }
 .news__card3_sentense{
     /* background-color: peachpuff; */
@@ -349,6 +369,56 @@
     margin-bottom: 24px;
 }
 .news__card3_sentense_sentence{
+    font-size: 16px;
+    line-height: 25px; 
+}
+.news__card4{
+    background-color: rgb(251, 251, 247);
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0,0,.2);
+    margin: 30px;
+    padding: 20px;
+    
+}
+.news__card4_sentense{
+    /* background-color: peachpuff; */
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.news__card4_sentense_day{
+    font-size: 16;
+    margin-bottom: 24px;
+}
+.news__card4_sentense_sentence{
+    font-size: 16px;
+    line-height: 25px; 
+}
+.news__card5{
+    background-color: rgb(251, 251, 247);
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0,0,.2);
+    margin: 30px;
+    padding: 20px;
+    
+}
+.news__card5_sentense{
+    /* background-color: peachpuff; */
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.news__card5_sentense_day{
+    font-size: 16;
+    margin-bottom: 24px;
+}
+.news__card5_sentense_sentence{
     font-size: 16px;
     line-height: 25px; 
 }
@@ -530,9 +600,10 @@ border幅328Px高さ36px #bfbfbf*/
 }
 /* セレクトの枠同じ設定やのに、なぜか小さくなる */
 .form_select{
-    width: 328px;
-    height: 36px;
+    width: 335px;
+    height: 41px;
     margin: 8px;
+    /* padding: 1px 2px; */
 }
 
 .contact_motive{
